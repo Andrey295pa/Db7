@@ -1,5 +1,7 @@
-package DAO;
+package DAO.jdbc;
 
+import DAO.DAO;
+import DAO.jdbc.CrudCommand;
 import Entitu.TypeEntity;
 
 import java.util.Scanner;

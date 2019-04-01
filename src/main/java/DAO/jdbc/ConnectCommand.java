@@ -1,5 +1,6 @@
-package DAO;
+package DAO.jdbc;
 
+import DAO.DAO;
 import org.hibernate.SessionFactory;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 

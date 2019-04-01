@@ -1,8 +1,9 @@
-package DAO;
+package DAO.jdbc;
 
 //import org.courses.data.DAO.DAO;
 //import org.courses.cli.commands.Command;
 //import org.courses.cli.commands.CommandFormatException;
+import DAO.DAO;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Arrays;
