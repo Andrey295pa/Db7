@@ -1,5 +1,6 @@
 package DAO.hbm;
 
+import DAO.DAO;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

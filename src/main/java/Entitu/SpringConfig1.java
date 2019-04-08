@@ -3,6 +3,7 @@ package Entitu;
 
 import DAO.jdbc.*;
 import DAO.DAO;
+import org.hibernate.dialect.DB297Dialect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 
@@ -11,13 +12,13 @@ import java.util.Map;
 import java.util.Scanner;
 
 @Configuration
-@Import(SpringConfig1.class)
+@Import(Entitu.SpringConfig.class)
 public class SpringConfig1 {
     @Autowired
     DAO<TypeEntity, Integer> typeDao;
 
-    @Autowired
-    DAO<SocksEntity, Integer> socksDao;
+    //@Autowired
+    //DAO<SocksEntity, Integer> socksDao;
 
     @Autowired
     DAO<MaterialEntity, Integer> materialDao;
